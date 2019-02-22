@@ -9,6 +9,7 @@
 .video-container {
   position: relative;
   display: flex;
+  justify-content: center;
   &__bg {
     position: absolute;
     width: 100%;
@@ -24,7 +25,6 @@
   &__heading {
     position: absolute;
     bottom: 30px;
-   justify-content: center;
     background: rgba(255, 255, 255, 0.3);
     padding: 10px 20px;
     h1 {
