@@ -1,13 +1,15 @@
 .video-content {
   width: 100%;
-  height: auto;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+
+
 }
 .video-container {
   position: relative;
-  display: flex;
-  justify-content: center;
-  height: 600px;
   overflow: hidden;
+
   &__bg {
     position: absolute;
     width: 100%;
@@ -23,11 +25,14 @@
   &__heading {
     position: absolute;
     bottom: 30px;
-    background: rgba(255, 255, 255, 0.3);
-    padding: 10px 20px;
+    width: 100%;
     h1 {
       font-family: sans-serif;
       color: #20332b;
+      background: rgba(255,255,255,.3);
+      width: fit-content;
+      margin: auto;
+      padding: 10px 20px;
 
     }
   }
