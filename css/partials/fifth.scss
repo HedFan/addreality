@@ -1,0 +1,45 @@
+.content-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__item {
+    height: 200px;
+    border-radius: 30px;
+    width: 33%;
+    margin: 15px;
+
+    &--first {
+      background-color: #65FBD2;
+    }
+
+    &--second {
+      background-color: #05C19C;
+    }
+
+    &--third {
+      background-color: #008B69;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .content-block {
+   flex-wrap: wrap;
+    &__item {
+      &--first {
+        order: 3;
+        width: 50%;
+      }
+
+      &--second {
+       display: none;
+      }
+
+      &--third {
+        order: 1;
+        width: 50%;
+      }
+    }
+  }
+
+}

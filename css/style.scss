@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+@import "partials/second.scss";
+@import "partials/third.scss";
+@import "partials/fourth.scss";
+@import "partials/fifth.scss";
