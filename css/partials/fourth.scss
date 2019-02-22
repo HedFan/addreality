@@ -6,6 +6,8 @@
   position: relative;
   display: flex;
   justify-content: center;
+  height: 600px;
+  overflow: hidden;
   &__bg {
     position: absolute;
     width: 100%;
